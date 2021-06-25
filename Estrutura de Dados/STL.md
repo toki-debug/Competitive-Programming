@@ -3,7 +3,7 @@
 [Referencia](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/)
 ---
 
-##1.Algoritmos
+## 1.Algoritmos
 ---
 
 <b>-Sorting </b>
@@ -58,11 +58,11 @@ find(first_iterator,last_iterator,x)
 ```
 >Retorna um interator coma primeira ocorrencia de x no dado vector e aponta para o ultimo endereço se o elemento não está presente no vector.<br>
             
-##2.Containers
+## 2.Containers
 ---
 
-##3.Funções
+## 3.Funções
 ---
 
-##4.Iterators
+## 4.Iterators
 ---
