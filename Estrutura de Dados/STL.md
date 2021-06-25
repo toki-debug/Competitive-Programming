@@ -1,51 +1,62 @@
-#The C++ Standard Template Library (STL)
-    [Referencia](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/)
+# The C++ Standard Template Library (STL)
 ---
-
-##STL tem 4 componentes
-<br>
+    - [Referencia](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/)
 
 
+## STL tem 4 componentes
 
-    <b>1.Algoritmos:</b>
 
-        - Sorting(Sorting an array: sort(name_array, name_array + tamanho_array))
+<b> 1.Algoritmos: </b>
 
-        - Searching(Binary Search : binary_search(startaddress, endaddress, valuetofind)) 
+- Sorting (Sorting an array: sort(name_array, name_array + tamanho_array))
 
-            >Retorna true se encontr e false caso não encontre. 
+- Searching(Binary Search : binary_search(startaddress, endaddress, valuetofind)) 
 
-        - Important STL Algorithms
+    >Retorna true se encontr e false caso não encontre. 
 
-            ```
-                sort(first_iterator,last_iterator)
-            ```
+- Important STL Algorithms
 
-                >Ordena o dado vector
+```
+csort(first_iterator,last_iterator)
+```
 
-            ```reverse(first_iterator,last_iterator)```
+>Ordena o dado vector
 
-                > Inverte todo o vector.
+```
+reverse(first_iterator,last_iterator)
+```
 
-            ```*max_element(first_iterator,last_iterator)``` 
+> Inverte todo o vector
 
-                >Encontra o valor máximo do vector.
+```
+*max_element(first_iterator,last_iterator)
+```
 
-            ```*min_element(first_iterator,last_iterator)```
+>Encontra o valor máximo do vector.
 
-                >Encontra o valor mínimo do vector.
+```
+*min_element(first_iterator,last_iterator)
+```
 
-            ```accumulate(first_iterator,last_iterator,initial value of sum)```
+>Encontra o valor mínimo do vector.
 
-                >Faz a soma dos elementos do vector
+```
+accumulate(first_iterator,last_iterator,initial value of sum)
+```
 
-            ```count(first_iterator,last_iterator,x)```
+>Faz a soma dos elementos do vector
 
-                >Conta o numero de vezes que o x aparece no dado vector
+```
+count(first_iterator,last_iterator,x)
+```
 
-            ```find(first_iterator,last_iterator,x)```
+>Conta o numero de vezes que o x aparece no dado vector
 
-                >Retorna um interator coma primeira ocorrencia de x no dado vector e aponta para o ultimo endereço se o elemento não está presente no vector.
+``` 
+find(first_iterator,last_iterator,x)
+```
+
+>Retorna um interator coma primeira ocorrencia de x no dado vector e aponta para o ultimo endereço se o elemento não está presente no vector.
             
     <b>2.Containers</b>
     <b>3.Funções</b>
