@@ -6,7 +6,6 @@
 ## 1.Algoritmos
 [Algorithm Library | C++ Magicians STL Algorithm](https://www.geeksforgeeks.org/c-magicians-stl-algorithms/)
 
-### Important STL Algorithms
  
 #### 1.Non-Manipulating Algorithms
 
