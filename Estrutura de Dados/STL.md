@@ -1,11 +1,9 @@
 # The C++ Standard Template Library (STL)
 
 [Referencia](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/)
+---
 
-==
-
-
-## 1.Algoritmos:
+##1.Algoritmos
 ---
 
 <b>-Sorting </b>
