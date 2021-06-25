@@ -21,7 +21,7 @@ csort(first_iterator,last_iterator)
 reverse(first_iterator,last_iterator)
 ```
 
-* Encontra o valor máximo do vector.
+- Encontra o valor máximo do vector.
 ```c
 *max_element(first_iterator,last_iterator)
 ```
@@ -62,6 +62,7 @@ upper_bound(first_iterator, last_iterator, x)
 ```
 
 #### 2.Some Manipulating Algorithms
+---
             
 ## 2.Containers
 
