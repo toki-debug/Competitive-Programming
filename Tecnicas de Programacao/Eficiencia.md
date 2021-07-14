@@ -1,4 +1,4 @@
-#Calculando Eficiencia de um programa
+# Calculando Eficiencia de um programa
 
 | Input Size | Expected time Complexity |
 | :---: | :---: |
