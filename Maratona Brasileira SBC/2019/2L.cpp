@@ -20,7 +20,7 @@ int main() {
 
   for (int i = 0; i < n; i++) {
     int g = 0, b = 0;
-    for (int j = 0; j < n; j++) {
+    for (int j = 0; j < m; j++) {
       char c;
       cin >> c;
       if (c == 'G') {
@@ -33,7 +33,7 @@ int main() {
       vet[i][j] = max(g, b);
     }
   }
-  ll ini = 0, fim = n;
+  ll ini = 1, fim = n;
   ll mid;
   ll save = 0;
   while (ini <= fim) {
@@ -48,7 +48,7 @@ int main() {
         } else {
           x = 0;
         }
-        if (x >= mid) {
+        if (x == mid) {
           c = 1;
           j = m;
           break;
